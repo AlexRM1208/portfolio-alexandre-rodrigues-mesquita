@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Meta tag importante para o site se adaptar a celulares e tablets -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Portfólio pessoal de Alexandre Rodrigues Mesquita, desenvolvido com HTML5, CSS3 e JavaScript."
+  >
+
+  <title>Alexandre Rodrigues Mesquita | Portfólio Pessoal</title>
+
+  <!-- Arquivo externo de CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Cabeçalho com menu de navegação fixo -->
+  <header class="cabecalho">
+    <nav class="menu container">
+      <a href="#inicio" class="logo">
+        Portfólio Pessoal
+      </a>
+
+      <!-- Botão exibido em telas menores para abrir/fechar o menu -->
+      <button class="botao-menu" id="botaoMenu" type="button">
+        ☰
+      </button>
+
+      <ul class="links-menu" id="linksMenu">
+        <li><a href="#sobre" class="link-menu">Sobre mim</a></li>
+        <li><a href="#formacao" class="link-menu">Formação</a></li>
+        <li><a href="#portfolio" class="link-menu">Portfólio</a></li>
+        <li><a href="#contato" class="link-menu">Contato</a></li>
+      </ul>
+
+      <!-- Botão para alternar entre tema claro e escuro -->
+      <button class="botao-tema" id="botaoTema" type="button">
+        Tema escuro
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Seção inicial -->
+    <section class="secao inicio" id="inicio">
+      <div class="container conteudo-inicio">
+        <div class="texto-inicio">
+          <p class="subtitulo">Currículo Online</p>
+
+          <h1>Olá, eu sou <span>Alexandre</span></h1>
+
+          <p>
+            Este é meu portfólio pessoal desenvolvido como atividade prática da
+            disciplina de Fundamentos da Programação Web. Aqui apresento um pouco
+            sobre mim, minha formação, meus projetos e uma forma de contato.
+          </p>
+
+          <div class="botoes-inicio">
+            <a href="#portfolio" class="botao botao-principal">Ver projetos</a>
+            <a href="#contato" class="botao botao-secundario">Contato</a>
+          </div>
+        </div>
+
+        <div class="cartao-perfil">
+          <div class="foto-falsa">
+            AM
+          </div>
+
+          <h2>Alexandre Rodrigues Mesquita</h2>
+
+          <p>Estudante de Análise e Desenvolvimento de Sistemas</p>
+
+          <ul>
+            <li>📍 Rio de Janeiro - RJ</li>
+            <li>🎓 Análise e Desenvolvimento de Sistemas</li>
+            <li>💻 HTML, CSS e JavaScript</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção obrigatória: Sobre mim -->
+    <section class="secao" id="sobre">
+      <div class="container">
+        <div class="titulo-secao">
+          <p class="subtitulo">Apresentação</p>
+          <h2>Sobre mim</h2>
+        </div>
+
+        <div class="grade-sobre">
+          <article class="cartao">
+            <h3>Quem sou eu</h3>
+
+            <p>
+              Meu nome é <strong>Alexandre Rodrigues Mesquita</strong>.
+              Sou uma pessoa dedicada, interessada em tecnologia e em constante
+              aprendizado. Tenho buscado desenvolver minhas habilidades em
+              programação web, principalmente com HTML, CSS e JavaScript.
+            </p>
+
+            <p>
+              Gosto de aprender na prática, criando páginas, testando códigos e
+              entendendo como os sites funcionam no navegador.
+            </p>
+          </article>
+
+          <article class="cartao">
+            <h3>Hobbies</h3>
+
+            <p>
+              Nos meus momentos livres, gosto de ouvir música, assistir filmes, ir ao cinema,
+              ler, estudar e desenvolver meus projetos na área de tecnologia.
+            </p>
+
+            <p>
+              Esses interesses também me ajudam a desenvolver criatividade,
+              organização e disciplina.
+            </p>
+          </article>
+
+          <article class="cartao destaque">
+            <h3>Objetivo</h3>
+
+            <p>
+              Meu objetivo é continuar evoluindo na área de desenvolvimento web,
+              criar projetos cada vez melhores e conquistar oportunidades na área
+              de tecnologia.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção obrigatória: Formação -->
+    <section class="secao secao-alternada" id="formacao">
+      <div class="container">
+        <div class="titulo-secao">
+          <p class="subtitulo">Educação</p>
+          <h2>Formação</h2>
+        </div>
+
+        <div class="lista-formacao">
+          <article class="item-formacao">
+            <h3>Análise e Desenvolvimento de Sistemas</h3>
+            <p>
+              <strong>Instituição:</strong> Uninter
+            </p>
+
+            <p>
+              <strong>Período:</strong> 2025 - 2027 (previsão de conclusão)
+            </p>
+
+            <p>
+              Curso relacionado à área de tecnologia, desenvolvimento web,
+              programação, banco de dados e criação de aplicações.
+            </p>
+          </article>
+
+          <article class="item-formacao">
+            <h3>Curso FIC de Banco de Dados</h3>
+
+            <p>
+              <strong>Instituição:</strong> ISERJ/FAETEC
+            </p>
+
+            <p>
+              <strong>Período:</strong> 2025
+            </p>
+
+            <p>
+              Curso voltado ao estudo de banco de dados, modelagem de dados,
+              organização de informações, criação de tabelas e consultas utilizando SQL.
+            </p>
+          </article>
+
+          <article class="item-formacao">
+            <h3>Curso Técnico de Informática</h3>
+
+            <p>
+              <strong>Instituição:</strong> ISERJ/FAETEC
+            </p>
+
+            <p>
+              <strong>Período:</strong> 2023-2024
+            </p>
+
+            <p>
+              Formação importante para introdução à área de tecnologia, onde aprendi conceitos básicos de informática, hardware, software, redes e segurança da informação.
+            </p>
+          </article>
+
+          <article class="item-formacao">
+              <h3>Idiomas</h3>
+
+              <p>
+                <strong>Português:</strong> Nativo.
+              </p>
+
+              <p>
+                <strong>Inglês:</strong> Básico.
+              </p>
+         </article>
+        </div>
+
+        <div class="conhecimentos">
+          <h3>Conhecimentos estudados</h3>
+
+          <div class="lista-conhecimentos">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>Banco de Dados</span>
+            <span>MySQL</span>
+            <span>Sistemas Operacionais</span>
+            <span>GitHub</span>
+            <span>Python</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção obrigatória: Portfólio -->
+    <section class="secao" id="portfolio">
+      <div class="container">
+        <div class="titulo-secao">
+          <p class="subtitulo">Projetos</p>
+          <h2>Portfólio</h2>
+        </div>
+
+        <div class="grade-portfolio">
+          <article class="projeto">
+            <div class="icone-projeto">⛪</div>
+
+            <h3>Portal Paróquia Rocinha</h3>
+
+            <p>
+              Site desenvolvido para a disciplina Atividade Extensionista I, com o objetivo
+              de apresentar informações da Paróquia da Rocinha de forma organizada e acessível.
+            </p>
+
+            <div class="links-projeto">
+              <a href="https://alexrm1208.github.io/portal-paroquia-rocinha/" target="_blank" rel="noopener noreferrer">
+                Ver site
+              </a>
+
+              <a href="https://github.com/AlexRM1208/portal-paroquia-rocinha" target="_blank" rel="noopener noreferrer">
+                Ver código
+              </a>
+            </div>
+          </article>
+
+          <article class="projeto">
+            <div class="icone-projeto">🌲</div>
+
+            <h3>Site Guia Curitiba</h3>
+
+              <p>
+                Projeto desenvolvido para praticar estruturação de páginas com HTML,
+                estilização com CSS e interatividade com JavaScript.
+              </p>
+
+            <div class="links-projeto">
+              <a href="https://alexrm1208.github.io/fds.uninter/" target="_blank" rel="noopener noreferrer">
+                Ver site
+              </a>
+
+              <a href="https://github.com/AlexRM1208/fds.uninter" target="_blank" rel="noopener noreferrer">
+                Ver código
+              </a>
+            </div>
+          </article>
+
+          <article class="projeto">
+            <div class="icone-projeto">📅</div>
+
+            <h3>Site Calendário</h3>
+
+            <p>
+              Projeto criado para praticar CSS e JavaScript, com a construção de um
+              calendário interativo exibido no navegador.
+            </p>
+
+            <div class="links-projeto">
+              <a href="https://alexrm1208.github.io/calendario-app/" target="_blank" rel="noopener noreferrer">
+                Ver site
+              </a>
+
+              <a href="https://github.com/AlexRM1208/calendario-app" target="_blank" rel="noopener noreferrer">
+                Ver código
+              </a>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Seção obrigatória: Contato -->
+    <section class="secao secao-alternada" id="contato">
+      <div class="container">
+        <div class="titulo-secao">
+          <p class="subtitulo">Mensagem</p>
+          <h2>Contato</h2>
+        </div>
+
+        <div class="area-contato">
+          <article class="cartao">
+            <h3>Entre em contato</h3>
+
+            <p>
+              Preencha o formulário ao lado para simular o envio de uma mensagem.
+              Os campos são validados com JavaScript antes do envio.
+            </p>
+
+            <ul class="lista-contato">
+              <li>📧 5537091@alunouninter.com</li>
+              <li>
+                🔗 <a href="https://github.com/AlexRM1208" target="_blank" rel="noopener noreferrer">
+                  github.com/AlexRM1208
+                    </a>
+              </li>
+            </ul>
+          </article>
+
+          <form class="formulario cartao" id="formularioContato">
+            <div class="grupo-formulario">
+              <label for="nome">Nome</label>
+
+              <input
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Digite seu nome"
+              >
+
+              <small id="erroNome" class="mensagem-erro"></small>
+            </div>
+
+            <div class="grupo-formulario">
+              <label for="email">E-mail</label>
+
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="usuario@dominio.com"
+              >
+
+              <small id="erroEmail" class="mensagem-erro"></small>
+            </div>
+
+            <div class="grupo-formulario">
+              <label for="mensagem">Mensagem</label>
+
+              <textarea
+                id="mensagem"
+                name="mensagem"
+                rows="5"
+                placeholder="Digite sua mensagem"
+              ></textarea>
+
+              <small id="erroMensagem" class="mensagem-erro"></small>
+            </div>
+
+            <button type="submit" class="botao botao-principal botao-enviar">
+              Enviar mensagem
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="rodape">
+    <div class="container conteudo-rodape">
+      <p>
+        © <span id="anoAtual"></span> Alexandre Rodrigues Mesquita.
+        Desenvolvido com HTML5, CSS3 e JavaScript.
+      </p>
+
+      <a href="#inicio">Voltar ao topo</a>
+    </div>
+  </footer>
+
+  <!-- Arquivo externo de JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
